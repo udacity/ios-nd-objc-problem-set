@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD4A9AF1CBDB34300602B3E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4A9AE1CBDB34300602B3E /* main.swift */; };
+		EDD4A9C21CBDB37100602B3E /* Farm.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4A9B71CBDB37100602B3E /* Farm.m */; };
+		EDD4A9C31CBDB37100602B3E /* Pigeon.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4A9B91CBDB37100602B3E /* Pigeon.m */; };
+		EDD4A9C41CBDB37100602B3E /* Rat.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4A9BB1CBDB37100602B3E /* Rat.m */; };
+		EDD4A9C51CBDB37100602B3E /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4A9BD1CBDB37100602B3E /* Pig.m */; };
+		EDD4A9C61CBDB37100602B3E /* GoldenDoodle.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4A9BF1CBDB37100602B3E /* GoldenDoodle.m */; };
+		EDD4A9C71CBDB37100602B3E /* Apartment.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4A9C11CBDB37100602B3E /* Apartment.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDD4A9A91CBDB34300602B3E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDD4A9AB1CBDB34300602B3E /* Animals_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Animals_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD4A9AE1CBDB34300602B3E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDD4A9B51CBDB37000602B3E /* Animals_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animals_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		EDD4A9B61CBDB37100602B3E /* Farm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farm.h; sourceTree = "<group>"; };
+		EDD4A9B71CBDB37100602B3E /* Farm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farm.m; sourceTree = "<group>"; };
+		EDD4A9B81CBDB37100602B3E /* Pigeon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pigeon.h; sourceTree = "<group>"; };
+		EDD4A9B91CBDB37100602B3E /* Pigeon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pigeon.m; sourceTree = "<group>"; };
+		EDD4A9BA1CBDB37100602B3E /* Rat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rat.h; sourceTree = "<group>"; };
+		EDD4A9BB1CBDB37100602B3E /* Rat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rat.m; sourceTree = "<group>"; };
+		EDD4A9BC1CBDB37100602B3E /* Pig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		EDD4A9BD1CBDB37100602B3E /* Pig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pig.m; sourceTree = "<group>"; };
+		EDD4A9BE1CBDB37100602B3E /* GoldenDoodle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoldenDoodle.h; sourceTree = "<group>"; };
+		EDD4A9BF1CBDB37100602B3E /* GoldenDoodle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldenDoodle.m; sourceTree = "<group>"; };
+		EDD4A9C01CBDB37100602B3E /* Apartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apartment.h; sourceTree = "<group>"; };
+		EDD4A9C11CBDB37100602B3E /* Apartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apartment.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD4A9A81CBDB34300602B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD4A9A21CBDB34300602B3E = {
+			isa = PBXGroup;
+			children = (
+				EDD4A9AD1CBDB34300602B3E /* Animals_Swift */,
+				EDD4A9AC1CBDB34300602B3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD4A9AC1CBDB34300602B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD4A9AB1CBDB34300602B3E /* Animals_Swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD4A9AD1CBDB34300602B3E /* Animals_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EDD4A9B61CBDB37100602B3E /* Farm.h */,
+				EDD4A9B71CBDB37100602B3E /* Farm.m */,
+				EDD4A9B81CBDB37100602B3E /* Pigeon.h */,
+				EDD4A9B91CBDB37100602B3E /* Pigeon.m */,
+				EDD4A9BA1CBDB37100602B3E /* Rat.h */,
+				EDD4A9BB1CBDB37100602B3E /* Rat.m */,
+				EDD4A9BC1CBDB37100602B3E /* Pig.h */,
+				EDD4A9BD1CBDB37100602B3E /* Pig.m */,
+				EDD4A9BE1CBDB37100602B3E /* GoldenDoodle.h */,
+				EDD4A9BF1CBDB37100602B3E /* GoldenDoodle.m */,
+				EDD4A9C01CBDB37100602B3E /* Apartment.h */,
+				EDD4A9C11CBDB37100602B3E /* Apartment.m */,
+				EDD4A9AE1CBDB34300602B3E /* main.swift */,
+				EDD4A9B51CBDB37000602B3E /* Animals_Swift-Bridging-Header.h */,
+			);
+			path = Animals_Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD4A9AA1CBDB34300602B3E /* Animals_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD4A9B21CBDB34300602B3E /* Build configuration list for PBXNativeTarget "Animals_Swift" */;
+			buildPhases = (
+				EDD4A9A71CBDB34300602B3E /* Sources */,
+				EDD4A9A81CBDB34300602B3E /* Frameworks */,
+				EDD4A9A91CBDB34300602B3E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animals_Swift;
+			productName = Animals_Swift;
+			productReference = EDD4A9AB1CBDB34300602B3E /* Animals_Swift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD4A9A31CBDB34300602B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gabrielle Miller-Messner";
+				TargetAttributes = {
+					EDD4A9AA1CBDB34300602B3E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EDD4A9A61CBDB34300602B3E /* Build configuration list for PBXProject "Animals_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDD4A9A21CBDB34300602B3E;
+			productRefGroup = EDD4A9AC1CBDB34300602B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD4A9AA1CBDB34300602B3E /* Animals_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD4A9A71CBDB34300602B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD4A9C71CBDB37100602B3E /* Apartment.m in Sources */,
+				EDD4A9C31CBDB37100602B3E /* Pigeon.m in Sources */,
+				EDD4A9AF1CBDB34300602B3E /* main.swift in Sources */,
+				EDD4A9C21CBDB37100602B3E /* Farm.m in Sources */,
+				EDD4A9C61CBDB37100602B3E /* GoldenDoodle.m in Sources */,
+				EDD4A9C41CBDB37100602B3E /* Rat.m in Sources */,
+				EDD4A9C51CBDB37100602B3E /* Pig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDD4A9B01CBDB34300602B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDD4A9B11CBDB34300602B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EDD4A9B31CBDB34300602B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Animals_Swift/Animals_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDD4A9B41CBDB34300602B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Animals_Swift/Animals_Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD4A9A61CBDB34300602B3E /* Build configuration list for PBXProject "Animals_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD4A9B01CBDB34300602B3E /* Debug */,
+				EDD4A9B11CBDB34300602B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD4A9B21CBDB34300602B3E /* Build configuration list for PBXNativeTarget "Animals_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD4A9B31CBDB34300602B3E /* Debug */,
+				EDD4A9B41CBDB34300602B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD4A9A31CBDB34300602B3E /* Project object */;
+}

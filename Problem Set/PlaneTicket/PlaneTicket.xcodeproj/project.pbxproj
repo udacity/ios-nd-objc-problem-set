@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD71E641CBD6D8B001CE79A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD71E631CBD6D8B001CE79A /* main.m */; };
+		EDD71E6C1CBD6DB9001CE79A /* PlaneTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD71E6B1CBD6DB9001CE79A /* PlaneTicket.m */; };
+		EDD71E6F1CBD6ECD001CE79A /* Passenger.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD71E6E1CBD6ECD001CE79A /* Passenger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDD71E5E1CBD6D8B001CE79A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDD71E601CBD6D8B001CE79A /* PlaneTicket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PlaneTicket; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD71E631CBD6D8B001CE79A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDD71E6A1CBD6DB9001CE79A /* PlaneTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneTicket.h; sourceTree = "<group>"; };
+		EDD71E6B1CBD6DB9001CE79A /* PlaneTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaneTicket.m; sourceTree = "<group>"; };
+		EDD71E6D1CBD6ECD001CE79A /* Passenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passenger.h; sourceTree = "<group>"; };
+		EDD71E6E1CBD6ECD001CE79A /* Passenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Passenger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD71E5D1CBD6D8B001CE79A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD71E571CBD6D8B001CE79A = {
+			isa = PBXGroup;
+			children = (
+				EDD71E621CBD6D8B001CE79A /* PlaneTicket */,
+				EDD71E611CBD6D8B001CE79A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD71E611CBD6D8B001CE79A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD71E601CBD6D8B001CE79A /* PlaneTicket */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD71E621CBD6D8B001CE79A /* PlaneTicket */ = {
+			isa = PBXGroup;
+			children = (
+				EDD71E631CBD6D8B001CE79A /* main.m */,
+				EDD71E6D1CBD6ECD001CE79A /* Passenger.h */,
+				EDD71E6E1CBD6ECD001CE79A /* Passenger.m */,
+				EDD71E6A1CBD6DB9001CE79A /* PlaneTicket.h */,
+				EDD71E6B1CBD6DB9001CE79A /* PlaneTicket.m */,
+			);
+			path = PlaneTicket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD71E5F1CBD6D8B001CE79A /* PlaneTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD71E671CBD6D8B001CE79A /* Build configuration list for PBXNativeTarget "PlaneTicket" */;
+			buildPhases = (
+				EDD71E5C1CBD6D8B001CE79A /* Sources */,
+				EDD71E5D1CBD6D8B001CE79A /* Frameworks */,
+				EDD71E5E1CBD6D8B001CE79A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaneTicket;
+			productName = PlaneTicket;
+			productReference = EDD71E601CBD6D8B001CE79A /* PlaneTicket */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD71E581CBD6D8B001CE79A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gabrielle Miller-Messner";
+				TargetAttributes = {
+					EDD71E5F1CBD6D8B001CE79A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EDD71E5B1CBD6D8B001CE79A /* Build configuration list for PBXProject "PlaneTicket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDD71E571CBD6D8B001CE79A;
+			productRefGroup = EDD71E611CBD6D8B001CE79A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD71E5F1CBD6D8B001CE79A /* PlaneTicket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD71E5C1CBD6D8B001CE79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD71E6C1CBD6DB9001CE79A /* PlaneTicket.m in Sources */,
+				EDD71E641CBD6D8B001CE79A /* main.m in Sources */,
+				EDD71E6F1CBD6ECD001CE79A /* Passenger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDD71E651CBD6D8B001CE79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EDD71E661CBD6D8B001CE79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EDD71E681CBD6D8B001CE79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDD71E691CBD6D8B001CE79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD71E5B1CBD6D8B001CE79A /* Build configuration list for PBXProject "PlaneTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD71E651CBD6D8B001CE79A /* Debug */,
+				EDD71E661CBD6D8B001CE79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD71E671CBD6D8B001CE79A /* Build configuration list for PBXNativeTarget "PlaneTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD71E681CBD6D8B001CE79A /* Debug */,
+				EDD71E691CBD6D8B001CE79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD71E581CBD6D8B001CE79A /* Project object */;
+}

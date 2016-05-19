@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD4AB471CC03EEB00602B3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4AB461CC03EEB00602B3E /* main.m */; };
+		EDD4AB521CC03F0000602B3E /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4AB4E1CC03F0000602B3E /* RPSGame.m */; };
+		EDD4AB531CC03F0000602B3E /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4AB501CC03F0000602B3E /* RPSController.m */; };
+		EDD4AB571CC03F4500602B3E /* RPSTurn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4AB561CC03F4500602B3E /* RPSTurn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDD4AB411CC03EEB00602B3E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDD4AB431CC03EEB00602B3E /* RPS_Mixed */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RPS_Mixed; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD4AB461CC03EEB00602B3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDD4AB4D1CC03F0000602B3E /* RPSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
+		EDD4AB4E1CC03F0000602B3E /* RPSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
+		EDD4AB4F1CC03F0000602B3E /* RPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		EDD4AB501CC03F0000602B3E /* RPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
+		EDD4AB551CC03F1E00602B3E /* RPS_Mixed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPS_Mixed-Bridging-Header.h"; sourceTree = "<group>"; };
+		EDD4AB561CC03F4500602B3E /* RPSTurn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSTurn.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD4AB401CC03EEB00602B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD4AB3A1CC03EEB00602B3E = {
+			isa = PBXGroup;
+			children = (
+				EDD4AB451CC03EEB00602B3E /* RPS_Mixed */,
+				EDD4AB441CC03EEB00602B3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD4AB441CC03EEB00602B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD4AB431CC03EEB00602B3E /* RPS_Mixed */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD4AB451CC03EEB00602B3E /* RPS_Mixed */ = {
+			isa = PBXGroup;
+			children = (
+				EDD4AB461CC03EEB00602B3E /* main.m */,
+				EDD4AB4D1CC03F0000602B3E /* RPSGame.h */,
+				EDD4AB4E1CC03F0000602B3E /* RPSGame.m */,
+				EDD4AB4F1CC03F0000602B3E /* RPSController.h */,
+				EDD4AB501CC03F0000602B3E /* RPSController.m */,
+				EDD4AB561CC03F4500602B3E /* RPSTurn.swift */,
+				EDD4AB551CC03F1E00602B3E /* RPS_Mixed-Bridging-Header.h */,
+			);
+			path = RPS_Mixed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD4AB421CC03EEB00602B3E /* RPS_Mixed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD4AB4A1CC03EEB00602B3E /* Build configuration list for PBXNativeTarget "RPS_Mixed" */;
+			buildPhases = (
+				EDD4AB3F1CC03EEB00602B3E /* Sources */,
+				EDD4AB401CC03EEB00602B3E /* Frameworks */,
+				EDD4AB411CC03EEB00602B3E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPS_Mixed;
+			productName = RPS_Mixed;
+			productReference = EDD4AB431CC03EEB00602B3E /* RPS_Mixed */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD4AB3B1CC03EEB00602B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gabrielle Miller-Messner";
+				TargetAttributes = {
+					EDD4AB421CC03EEB00602B3E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EDD4AB3E1CC03EEB00602B3E /* Build configuration list for PBXProject "RPS_Mixed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDD4AB3A1CC03EEB00602B3E;
+			productRefGroup = EDD4AB441CC03EEB00602B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD4AB421CC03EEB00602B3E /* RPS_Mixed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD4AB3F1CC03EEB00602B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD4AB471CC03EEB00602B3E /* main.m in Sources */,
+				EDD4AB521CC03F0000602B3E /* RPSGame.m in Sources */,
+				EDD4AB571CC03F4500602B3E /* RPSTurn.swift in Sources */,
+				EDD4AB531CC03F0000602B3E /* RPSController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDD4AB481CC03EEB00602B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EDD4AB491CC03EEB00602B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EDD4AB4B1CC03EEB00602B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RPS_Mixed/RPS_Mixed-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDD4AB4C1CC03EEB00602B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RPS_Mixed/RPS_Mixed-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD4AB3E1CC03EEB00602B3E /* Build configuration list for PBXProject "RPS_Mixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD4AB481CC03EEB00602B3E /* Debug */,
+				EDD4AB491CC03EEB00602B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD4AB4A1CC03EEB00602B3E /* Build configuration list for PBXNativeTarget "RPS_Mixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD4AB4B1CC03EEB00602B3E /* Debug */,
+				EDD4AB4C1CC03EEB00602B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD4AB3B1CC03EEB00602B3E /* Project object */;
+}
