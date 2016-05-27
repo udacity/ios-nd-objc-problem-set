@@ -32,8 +32,8 @@
     } else {
         
         // Here we build up the results message "Rock crushes Scissors. You Win!" etc.
-        NSString *winnerString = [[game winner] description];
-        NSString *loserString = [[game loser]  description];
+        NSString *winnerString = [[game winner] stringForMessage];
+        NSString *loserString = [[game loser]  stringForMessage];
         NSString *resultsString = [self resultString: game];
         
         NSString *wholeString =  [NSString stringWithFormat:@"%@ %@ %@ %@ %@", winnerString, @" defeats ", loserString, @".",  resultsString];
