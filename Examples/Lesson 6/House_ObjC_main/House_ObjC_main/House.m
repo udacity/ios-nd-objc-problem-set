@@ -7,7 +7,7 @@
 //
 
 #import "House.h"
-//#import "House_main_ObjC-Swift.h"
+//#import "House_ObjC_main-Swift.h"
 
 @interface House()
 
