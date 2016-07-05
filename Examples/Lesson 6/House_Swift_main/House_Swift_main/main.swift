@@ -11,8 +11,8 @@ import Foundation
 var myHouse = House()
 
 if let hotTub = myHouse.hotTub {
-    print(hotTub.temperature)
+    print("Current temp:\(hotTub.temperature)")
     hotTub.heatUp()
-    print(hotTub.temperature)
+    print("Current temp:\(hotTub.temperature)")
 }
 
