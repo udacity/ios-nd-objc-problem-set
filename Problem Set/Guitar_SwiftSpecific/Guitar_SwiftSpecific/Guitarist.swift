@@ -17,10 +17,10 @@ class Guitarist: NSObject {
             do {
                 try guitar.playNote(note)
                 
-            } catch Error.broken {
+            } catch GuitarStringError.broken {
                 print("Quick, replace the string!")
                 break
-            } catch Error.outOfTune {
+            } catch GuitarStringError.outOfTune {
                 print("Uh oh! Tuning break.")
                 break
             } catch {
