@@ -9,7 +9,7 @@
 import Cocoa
 
 
-@objc enum GuitarStringError: NSInteger, ErrorProtocol {
+@objc enum GuitarStringError: NSInteger, Error {
     case broken = 876
     case outOfTune = 543
 }
