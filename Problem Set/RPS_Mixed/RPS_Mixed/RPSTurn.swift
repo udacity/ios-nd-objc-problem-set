@@ -9,7 +9,7 @@
 import Cocoa
 
 @objc enum Move: NSInteger {
-    case Rock, Paper, Scissors, Invalid
+    case rock, paper, scissors, invalid
 }
 
 class RPSTurn: NSObject {
@@ -24,18 +24,18 @@ class RPSTurn: NSObject {
         switch arc4random() % 3 {
             
         case 0:
-            self.move = .Rock
+            self.move = .rock
         case 1:
-            self.move = .Paper
+            self.move = .paper
         default:
-            self.move = .Scissors
+            self.move = .scissors
         }
     }
     
     // The defeats method defines the hierarchy of moves, Rock defeats Scissors etc.
-    func defeats(opponent: RPSTurn) -> Bool {
+    func defeats(_ opponent: RPSTurn) -> Bool {
         switch (self.move, opponent.move) {
-        case (.Paper, .Rock), (.Scissors, .Paper), (.Rock, .Scissors):
+        case (.paper, .rock), (.scissors, .paper), (.rock, .scissors):
             return true
         default:
             return false
@@ -45,11 +45,11 @@ class RPSTurn: NSObject {
     func stringForMessage() -> String {
         
         switch (self.move) {
-        case .Rock:
+        case .rock:
             return "Rock"
-        case .Paper:
+        case .paper:
             return "Paper"
-        case .Scissors:
+        case .scissors:
             return "Scissors"
         default:
             return "Invalid"

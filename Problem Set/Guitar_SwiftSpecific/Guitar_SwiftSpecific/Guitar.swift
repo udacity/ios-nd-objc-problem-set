@@ -18,17 +18,17 @@ class Guitar {
         self.strings = strings
     }
     
-    func stringForNote(note: Note) -> GuitarString {
+    func stringForNote(_ note: Note) -> GuitarString {
         // TODO: logic to choose the correct string to play
         return strings[0]
     }
     
-    func playNote(note: Note) throws {
+    func playNote(_ note: Note) throws {
         var string = stringForNote(note)
         try pluckString(&string, velocity: note.velocity)
     }
     
-    func pluckString(inout string: GuitarString, velocity: Float) throws {
+    func pluckString(_ string: inout GuitarString, velocity: Float) throws {
         // Pluck the note 
         try string.pluck(velocity)
     }

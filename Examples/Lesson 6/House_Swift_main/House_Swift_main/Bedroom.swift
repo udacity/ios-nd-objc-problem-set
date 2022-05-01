@@ -9,14 +9,14 @@
 import Foundation
 
 enum Direction {
-    case North
-    case South
-    case East
-    case West
+    case north
+    case south
+    case east
+    case west
 }
 
 
 class Bedroom {
     let privateBath = true
-    let directionWindowFaces = Direction.East
+    let directionWindowFaces = Direction.east
 }
